@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horari</title>
+    <style>
+        table {
+            border: 1px solid #e5e7eb;
+            border-collapse: collapse;
+            width: 100%;
+            background-color: #ffffff;
+        }
+        th {
+            border: 1px solid #e5e7eb;
+            padding: 8px;
+            text-align: center;
+            color: #1f2937;
+        }
+        td {
+            border: 1px solid #e5e7eb;
+            padding: 8px;
+            text-align: center;
+            color: #1f2937;
+        }
+        thead {
+            background-color: #ffffff;
+        }
+        tbody {
+            background-color: #ffffff;
+        }
+        tfoot {
+            background-color: #ffffff;
+            color: #1f2937;
+            text-align: center;
+            font-weight: bold;
+        }
+        caption {
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            color: #1f2937;
+        }
+        .pati {
+            background-color: #e6f4ea;
+        }
+        .taller {
+            background-color: #e8f0fe;
+        }
+        .projecte {
+            background-color: #f3e8fd;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Horari de Classes</h1>
+    </header>
+
+    <main>
+        <table>
+            <caption>HORARI SETMANAL — 1r SMX</caption>
+            
+            <thead>
+                <tr>
+                    <th>Hora</th>
+                    <th>Dilluns</th>
+                    <th>Dimarts</th>
+                    <th>Dimecres</th>
+                    <th>Dijous</th>
+                    <th>Divendres</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <th>08:00 - 09:00</th>
+                    <td>Matemàtiques</td>
+                    <td>Anglès</td>
+                    <td>Informàtica</td>
+                    <td>Català</td>
+                    <td>Ciències</td>
+                </tr>
+                <tr>
+                    <th>09:00 - 10:00</th>
+                    <td>Matemàtiques</td>
+                    <td>Programació</td>
+                    <td>Informàtica</td>
+                    <td>Anglès</td>
+                    <td>Ciències</td>
+                </tr>
+                <tr>
+                    <th>10:00 - 11:00</th>
+                    <td>Programació</td>
+                    <td>Programació</td>
+                    <td>Castellà</td>
+                    <td>Matemàtiques</td>
+                    <td>Tutoria</td>
+                </tr>
+                <tr>
+                    <th>11:00 - 11:30</th>
+                    <td colspan="5" class="pati">PATI — DESCANS</td>
+                </tr>
+                <tr>
+                    <th>11:30 - 12:30</th>
+                    <td>Anglès</td>
+                    <td>Ciències</td>
+                    <td rowspan="2" class="taller">TALLER DE XARXES<br>(2 hores)</td>
+                    <td>Programació</td>
+                    <td rowspan="2" class="projecte">PROJECTE<br>(2 hores)</td>
+                </tr>
+                <tr>
+                    <th>12:30 - 13:30</th>
+                    <td>Català</td>
+                    <td>Informàtica</td>
+                    <td>Programació</td>
+                </tr>
+                <tr>
+                    <th>13:30 - 14:30</th>
+                    <td>Castellà</td>
+                    <td>Matemàtiques</td>
+                    <td>Anglès</td>
+                    <td>Ciències</td>
+                    <td>Informàtica</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td colspan="6">Curs 2026–2027 | Grup: 1r SMX | Aula: Informàtica 2</td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+
+    <footer>
+        <p>Sessió <data value="2026-11-03">03/11/2026</data></p>
+    </footer>
+
+</body>
+</html>
